@@ -8,7 +8,4 @@ import store from "./store";
 import "@/assets/css/vendor/bootstrap.min.css";
 import "@/assets/css/style.css";
 
-// load js files
-import "@/assets/js/main.js";
-
 createApp(App).use(store).use(router).mount("#app");

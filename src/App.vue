@@ -1,19 +1,22 @@
 <template>
   <div id="nav" v-if="navbarVisible">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <Navbar />
   </div>
   <router-view />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import Navbar from "@/components/partials/Navbar.vue";
 
 @Options({
   watch: {
     $route(to) {
       this.navbarVisible = to.name !== "Login";
     },
+  },
+  components: {
+    Navbar,
   },
 })
 export default class App extends Vue {
