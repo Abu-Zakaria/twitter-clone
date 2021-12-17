@@ -7,6 +7,6 @@ interface RouterComposable {
 export default function useRouter(): RouterComposable {
   const route = useRoute();
   return {
-    route
+    route,
   };
 }
