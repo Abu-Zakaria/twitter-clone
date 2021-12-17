@@ -11,10 +11,10 @@
                 <nav>
                   <ul>
                     <li class="active">
-                      <router-link to="/">home</router-link>
+                      <router-link to="/">Home</router-link>
                     </li>
                     <li class="msg-trigger">
-                      <a class="msg-trigger-btn" href="#a">message</a>
+                      <a class="msg-trigger-btn" href="#a">Message</a>
                       <div class="message-dropdown" id="a">
                         <div class="dropdown-title">
                           <p class="recent-msg">recent message</p>
@@ -128,7 +128,7 @@
                       </div>
                     </li>
                     <li class="notification-trigger">
-                      <a class="msg-trigger-btn" href="#b">notification</a>
+                      <a class="msg-trigger-btn" href="#b">Notification</a>
                       <div class="message-dropdown" id="b">
                         <div class="dropdown-title">
                           <p class="recent-msg">Notification</p>
@@ -590,8 +590,7 @@ export default class Navbar extends Vue {
 </script>
 
 <style scoped>
-.profile-setting-box .profile-dropdown
-{
+.profile-setting-box .profile-dropdown {
   display: block;
 }
 </style>
