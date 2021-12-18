@@ -2,7 +2,11 @@
   <div id="nav" v-if="navbarVisible">
     <Navbar />
   </div>
-  <router-view />
+  <div class="main-wrapper pt-20">
+    <div class="container">
+      <router-view />
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
