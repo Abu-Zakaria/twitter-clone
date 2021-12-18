@@ -262,7 +262,7 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import ProfileBannerComponent from "@/components/ProfileBannerComponent.vue";
-import UserBannerInfo from "@/models/components/UserBannerInfo";
+import UserBannerInfo from "@/models/UserBannerInfo";
 
 @Options({
   components: {

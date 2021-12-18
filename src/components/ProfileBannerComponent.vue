@@ -23,7 +23,7 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import UserBannerInfo from "@/models/components/UserBannerInfo";
+import UserBannerInfo from "@/models/UserBannerInfo";
 
 @Options({
   props: {

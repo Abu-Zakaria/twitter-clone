@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { shallowMount } from "@vue/test-utils";
 import ProfileBannerComponent from "@/components/ProfileBannerComponent.vue";
-import UserBannerInfo from "@/models/components/UserBannerInfo";
+import UserBannerInfo from "@/models/UserBannerInfo";
 
 describe("ProfileBannerComponent", () => {
   it("renderes data properly", () => {
